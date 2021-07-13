@@ -7,6 +7,7 @@ namespace PrincipioAbiertoCerrado
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("O: Open/closed principle o Principio de abierto/cerrado");
             List<Automovil> automoviles = new List<Automovil>() { new Renault(), new Audi(), new Mercedes() };
             ImprimirPrecioAutomovil(automoviles);
             Console.ReadKey();

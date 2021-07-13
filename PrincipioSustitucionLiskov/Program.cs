@@ -7,6 +7,7 @@ namespace PrincipioSustitucionLiskov
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("L: Liskov substitution principle o Principio de sustitución de Liskov");
             List<Automovil> automoviles = new List<Automovil>() { new Renault(), new Audi(), new Mercedes() , new Ford()};
             ImprimirPrecioAutomovil(automoviles);
             Console.ReadKey();

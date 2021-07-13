@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrincipioSustitucionLiskov"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrincipioSegregacionInterfaz", "PrincipioSegregacionInterfaz\PrincipioSegregacionInterfaz.csproj", "{B790DD47-14DA-4805-ABC4-62CFDE157581}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrincipioInversionDependencias", "PrincipioInversionDependencias\PrincipioInversionDependencias.csproj", "{D3053496-DA4D-4BA6-B1D9-065DC3CC79CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B790DD47-14DA-4805-ABC4-62CFDE157581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B790DD47-14DA-4805-ABC4-62CFDE157581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B790DD47-14DA-4805-ABC4-62CFDE157581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3053496-DA4D-4BA6-B1D9-065DC3CC79CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3053496-DA4D-4BA6-B1D9-065DC3CC79CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3053496-DA4D-4BA6-B1D9-065DC3CC79CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3053496-DA4D-4BA6-B1D9-065DC3CC79CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
